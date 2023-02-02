@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: shipping
-        image: docker.io/sanraman/sample-java-app:v1
+        image: docker.io/sanraman/shipping:v1
         ports:
         - containerPort: 8080
         envFrom:                                # envFrom : to inject a configMap
