@@ -46,4 +46,4 @@ kind: ConfigMap
 metadata:
   name: shipping-cm
 data: 
-  DB_HOST: "Give_Your_RDS_ENDPONT"
+  DB_HOST: "database-2.ckaejo0oqgm0.eu-west-1.rds.amazonaws.com"
